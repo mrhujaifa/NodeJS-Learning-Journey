@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 try {
-  fs.writeFileSync("./output/app.log", "Application Stated \n");
+  fs.writeFileSync("./output/app.js", "const hello = 'hello word' \n");
   console.log("file created");
 
   const logEntry1 = `${new Date().toISOString()} user logged in \n`;
