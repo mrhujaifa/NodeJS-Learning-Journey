@@ -30,3 +30,5 @@ fs.writeFile("./output/temp.txt", dataToWrite, (error) => {
     }
   });
 });
+
+fs.b
